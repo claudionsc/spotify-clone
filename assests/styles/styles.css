@@ -1,7 +1,3 @@
-:root {
-  --default-green: #1DB954;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +10,7 @@ body {
 
 /* Utility Classes */
 .btn-primary {
-  background-color: var(--default-green);
+  background-color: #1DB954;
   color: mediumblue;
   text-transform: uppercase;
   padding: 15px 60px;
@@ -57,7 +53,7 @@ body {
   transition: all 300ms ease;
 }
 .nav-items ul li:hover {
-  color: var(--default-green);
+  color: #1DB954;
   cursor: pointer;
 }
 .nav-items ul li:nth-child(3) {
@@ -86,14 +82,14 @@ body {
 }
 .showcase-container h2 {
   font-size: 8rem;
-  color: var(--default-green);
+  color: #1DB954;
   text-align: center;
   font-weight: bold;
 }
 .showcase-container p {
   margin: 8px 0;
   font: 1.1rem;
-  color: var(--default-green);
+  color: #1DB954;
   font-weight: bold;
   padding-bottom: 30px;
 }
@@ -128,7 +124,7 @@ body {
   cursor: pointer;
 }
 .footer-menu-item:hover {
-  color: var(--default-green);
+  color: #1DB954;
 }
 
 /* Socials */
@@ -149,7 +145,7 @@ i {
   border-radius: 50%;
 }
 i:hover {
-  color: var(--default-green);
+  color: #1DB954;
 }
 
 /* Info */
@@ -182,7 +178,7 @@ i:hover {
   transition: all 300ms ease;
 }
 .footer-info-item:hover {
-  color: var(--default-green);
+  color: #1DB954;
 }
 
 .country {
@@ -194,7 +190,7 @@ i:hover {
   cursor: pointer;
 }
 .country:hover {
-  color: var(--default-green);
+  color: #1DB954;
 }
 
 .brazil-flag {
@@ -339,7 +335,7 @@ i:hover {
   #showcase .showcase-container p {
     margin: 8px 0;
     font-size: 0.7rem;
-    color: var(--default-green);
+    color: #1DB954;
     font-weight: bold;
     padding-bottom: 30px;
   }

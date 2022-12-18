@@ -1,6 +1,4 @@
-:root {
-    --default-green: #1DB954;
-}
+@import './var.scss';
 
 * {
     box-sizing: border-box;
@@ -16,7 +14,7 @@ body {
 /* Utility Classes */
 
 .btn-primary {
-    background-color: var(--default-green);
+    background-color: $default-green;
     color: mediumblue;
     text-transform: uppercase;
     padding: 15px 60px;
@@ -66,7 +64,7 @@ body {
             transition: all 300ms ease;
 
             &:hover {
-                color: var(--default-green);
+                color: $default-green;
                 cursor: pointer;
             }
 
@@ -102,7 +100,7 @@ body {
 
     & h2 {
         font-size: 8rem;
-        color: var(--default-green);
+        color: $default-green;
         text-align: center;
         font-weight: bold;
     }
@@ -110,7 +108,7 @@ body {
     & p {
         margin: 8px 0;
         font: 1.1rem;
-        color: var(--default-green);
+        color: $default-green;
         font-weight: bold;
         padding-bottom: 30px;
     }
@@ -157,7 +155,7 @@ body {
     cursor: pointer;
 
     &:hover {
-        color: var(--default-green);
+        color: $default-green;
     }
 
 }
@@ -183,7 +181,7 @@ body {
     border-radius: 50%;
 
     &:hover {
-        color: var(--default-green);
+        color: $default-green;
     }
 }
 
@@ -220,7 +218,7 @@ body {
     transition: all 300ms ease;
 
     &:hover {
-        color: var(--default-green);
+        color: $default-green;
     }
 
 }
@@ -234,7 +232,7 @@ body {
     cursor: pointer;
 
     &:hover {
-        color: var(--default-green);
+        color: $default-green;
     }
 }
 
@@ -439,7 +437,7 @@ body {
         #showcase .showcase-container p {
             margin: 8px 0;
             font-size: 0.7rem;
-            color: var(--default-green);
+            color: $default-green;
             font-weight: bold;
             padding-bottom: 30px;
         }
